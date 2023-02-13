@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.header{
+    background-color: #1F2937;
+    
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.header-links{
+    list-style-type: none;
+}
+
+.header-links a{
+    text-decoration: none;
+}
+
+.header-hero p, .header-links a{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.sign-up-btn{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius:  .5rem ;
+    border: none;
+    padding: 5px 20px;
+}
+

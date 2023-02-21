@@ -34,6 +34,11 @@ body {
     align-self: center;
 }
 
+.logo{
+    max-width: 100px;
+    max-height: 50px;
+}
+
 
 .header-links .links {
     margin: 0;
@@ -53,15 +58,14 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .header-hero-text {
     display: flex;
     flex-direction: column;
-    flex-shrink: 1;
+    
     justify-content: space-between;
-    min-width: 300px;
+    
 }
 
 .header-hero h1 {
@@ -69,7 +73,7 @@ body {
     font-weight: bolder;
     color: #f9faf8;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 
 }
 
@@ -100,9 +104,7 @@ body {
 .header-hero img {
 
     background-color: #E5E7EB;
-    flex-grow: 1;
-    min-width: 300px;
-    max-width: 500px;
+    max-width:550px;
     min-height: 200px;
 
 
@@ -140,6 +142,11 @@ body {
     border-radius: 10px;
     box-sizing: border-box;
     flex-shrink: 1;
+    display: flex;
+}
+
+.item img{
+   flex: 1;
 }
 
 .main-content h2 {
@@ -152,13 +159,15 @@ body {
 .quote-section{
     background-color: #E5E7EB;
     display: flex;
+    justify-content: center;
     
 }
 
 .quote-container{
     display: flex;
     flex-direction: column;
-    padding: 5rem 20rem;
+    padding: 5rem 10rem;
+    
     
 }
 
@@ -241,6 +250,10 @@ body {
     .header-hero-text{
         align-items: center;
         text-align: center;
+    }
+
+    .header-hero{
+        flex-wrap: wrap;
     }
 }
 
